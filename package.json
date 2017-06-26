@@ -1,0 +1,31 @@
+{
+  "name": "quickgo-ancestor-chart",
+  "version": "1.0.0",
+  "description": "A visual component to display ancestor charts of for GO and ECO terms.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "serve": "browser-sync start --server --index index.html --files 'dist/**/*.*,index.html'"
+  },
+  "keywords": [
+    "quickgo",
+    "go",
+    "webcomponents"
+  ],
+  "author": "Xavier Watkins",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.9.1"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2016": "^6.24.1",
+    "browser-sync": "^2.18.12",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-watch": "^4.0.0"
+  }
+}
